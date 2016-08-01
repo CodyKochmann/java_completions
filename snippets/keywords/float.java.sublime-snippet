@@ -5,5 +5,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>datatype</description>
+    <description>Keyword</description>
 </snippet>

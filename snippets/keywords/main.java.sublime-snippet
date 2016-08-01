@@ -1,9 +1,9 @@
 <snippet>
-    <content>private</content>
+    <content>main</content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>private</tabTrigger>
+    <tabTrigger>main</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>access</description>
+    <description>Keyword</description>
 </snippet>

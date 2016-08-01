@@ -1,7 +1,7 @@
 <snippet>
-    <content>String</content>
+    <content>void</content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>String</tabTrigger>
+    <tabTrigger>void</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
