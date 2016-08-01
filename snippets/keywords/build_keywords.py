@@ -2,10 +2,18 @@
 # @Author: cody
 # @Date:   2016-08-01 12:35:54
 # @Last Modified 2016-08-01
-# @Last Modified time: 2016-08-01 12:51:24
+# @Last Modified time: 2016-08-01 12:56:46
 
 import os
 import json
+
+if __file__.split('/')[-1] not in os.listdir('./'):
+    print 'wrong directory'
+    exit()
+
+for i in os.listdir('./'):
+    if i.endswith('.java.sublime-snippet'):
+        os.remove(i)
 
 data = {}
 

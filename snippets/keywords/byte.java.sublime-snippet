@@ -1,0 +1,9 @@
+<snippet>
+    <content><![byte]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>byte</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![datatype]]></description>
+</snippet>
