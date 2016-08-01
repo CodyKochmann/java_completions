@@ -1,9 +1,9 @@
 <snippet>
-    <content><![true]]></content>
+    <content>true</content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>true</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description><![boolean value]]></description>
+    <description>boolean value</description>
 </snippet>

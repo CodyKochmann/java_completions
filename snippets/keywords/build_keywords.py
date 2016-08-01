@@ -2,7 +2,7 @@
 # @Author: cody
 # @Date:   2016-08-01 12:35:54
 # @Last Modified 2016-08-01
-# @Last Modified time: 2016-08-01 12:56:46
+# @Last Modified time: 2016-08-01 13:06:44
 
 import os
 import json
@@ -29,13 +29,13 @@ class KeywordSnippet():
         self.keyword = keyword
         self.type_description = type_description
         self.snippet_text = '''<snippet>
-    <content><![{}]]></content>
+    <content>{}</content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>{}</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description><![{}]]></description>
+    <description>{}</description>
 </snippet>'''.format(
             self.keyword,
             self.keyword,

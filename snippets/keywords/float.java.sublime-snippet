@@ -1,9 +1,9 @@
 <snippet>
-    <content><![float]]></content>
+    <content>float</content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>float</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description><![datatype]]></description>
+    <description>datatype</description>
 </snippet>
