@@ -1,6 +1,6 @@
 
 <snippet>
-    <content><![CDATA[${1:private} void ${1:moduleName}(${2:String inputString}) {
+    <content><![CDATA[${1:private} void ${2:moduleName}(${3:String inputString}) {
     // ${4:description}
     $5
 }]]></content>
@@ -9,5 +9,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description><![CDATA[private void ...(...){...}]]></description>
+    <description><![CDATA[void ...(...){...}]]></description>
 </snippet>

@@ -1,13 +1,9 @@
-
 <snippet>
-    <content><![CDATA[${1:private} void ${2:moduleName}(${3:String inputString}) {
-    // ${4:description}
-    $5
-}]]></content>
+    <content><![CDATA[${1:int}[] ${2:arrayName};]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>module</tabTrigger>
+    <tabTrigger>list</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description><![CDATA[void ...(...){...}]]></description>
+    <description><![CDATA[array/list constructor]]></description>
 </snippet>

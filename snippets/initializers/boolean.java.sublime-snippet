@@ -6,5 +6,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>boolean ... = true;</description>
+    <description><![CDATA[boolean ... = true;]]></description>
 </snippet>

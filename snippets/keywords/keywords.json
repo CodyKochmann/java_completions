@@ -1,0 +1,5 @@
+{
+    "access":"static private",
+    "boolean value":"true false",
+    "datatype":"byte short int long double float String boolean"
+}
