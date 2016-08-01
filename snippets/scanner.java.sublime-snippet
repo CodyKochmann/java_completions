@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[import java.util.Scanner;
+${1:Scanner ${2:scan} = new Scanner(System.in);$3}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>scanner</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>get user input in java</description>
+</snippet>

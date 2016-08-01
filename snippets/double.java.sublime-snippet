@@ -1,0 +1,10 @@
+
+<snippet>
+    <content><![CDATA[double ${1:doubleName} = ${2:0.0};$3]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>double</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>double ... = 0.0;</description>
+</snippet>

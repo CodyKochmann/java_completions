@@ -1,0 +1,12 @@
+
+<snippet>
+    <content><![CDATA[for(int ${1:i}=0; ${1:i}<${2:total}; ${1:i}++){
+    $3
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>fori</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[for(int i=0; i<total; i++){...}]]></description>
+</snippet>

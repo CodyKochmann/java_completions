@@ -1,0 +1,14 @@
+
+<snippet>
+    <content><![CDATA[if (${1:booleanValue}) {
+    $2
+} else {
+    $3
+}$4]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ifelse</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>if...else</description>
+</snippet>

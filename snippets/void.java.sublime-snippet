@@ -1,0 +1,13 @@
+
+<snippet>
+    <content><![CDATA[${1:private} void ${1:moduleName}(${2:String inputString}) {
+    // ${4:description}
+    $5
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>void</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[private void ...(...){...}]]></description>
+</snippet>

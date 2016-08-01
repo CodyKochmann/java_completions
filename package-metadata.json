@@ -1,0 +1,10 @@
+{
+  "description": "completions and snippets for faster java development",
+  "platforms": [
+    "*"
+  ],
+  "dependencies": [],
+  "sublime_text": "*",
+  "url": "https://github.com/CodyKochmann/java_completions",
+  "version": "0.0.1"
+}

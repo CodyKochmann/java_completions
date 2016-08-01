@@ -1,0 +1,10 @@
+
+<snippet>
+    <content><![CDATA[String ${1:stirngName} = ${2:""};$3]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>String</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>String ... = "...";</description>
+</snippet>

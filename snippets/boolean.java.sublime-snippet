@@ -1,0 +1,10 @@
+
+<snippet>
+    <content><![CDATA[boolean ${1:variableName} = ${2:true};$3]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>boolean</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>boolean ... = true;</description>
+</snippet>

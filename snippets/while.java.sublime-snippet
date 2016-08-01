@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[while(${1:booleanValue}){
+    // ${2:description}
+    $3
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>while</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[while(...){...}]]></description>
+</snippet>
