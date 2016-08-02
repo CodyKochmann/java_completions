@@ -1,7 +1,7 @@
 <snippet>
-    <content>main</content>
+    <content>char</content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>main</tabTrigger>
+    <tabTrigger>char</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.java</scope>
     <!-- Optional: Description to show in the menu -->

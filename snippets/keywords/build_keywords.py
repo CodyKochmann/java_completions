@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: cody
 # @Date:   2016-08-01 12:35:54
-# @Last Modified 2016-08-01
-# @Last Modified time: 2016-08-01 13:06:44
+# @Last Modified 2016-08-02
+# @Last Modified time: 2016-08-02 09:13:38
 
 import os
 import json
@@ -15,10 +15,11 @@ for i in os.listdir('./'):
     if i.endswith('.java.sublime-snippet'):
         os.remove(i)
 
-data = {}
+data = []
 
-with open('keywords.json','r') as f:
-    data = json.loads(f.read())
+with open('keywords.txt','r') as f:
+    for line in f:
+        data+=[line.split('\n')[0]]
 
 def write_file(file_path,txt):
     with open(file_path, 'w') as f:
@@ -43,10 +44,9 @@ class KeywordSnippet():
         )
         self.file_path = '{}.java.sublime-snippet'.format(self.keyword)
 
-for t in data:
-    for keyword in data[t].split(' '):
-        s = KeywordSnippet(keyword, t)
-        print '========================================================'
-        print s.file_path
-        print s.snippet_text
-        write_file(s.file_path, s.snippet_text)
+for keyword in data:
+    s = KeywordSnippet(keyword, "Keyword")
+    print '========================================================'
+    print s.file_path
+    print s.snippet_text
+    write_file(s.file_path, s.snippet_text)
