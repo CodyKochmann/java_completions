@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/* sets the value for ${1:count} */
+public void set${1:count}(${2:int} new${1:count}){
+    ${1:count} = new${1:count};
+}
+
+/* gets the value for ${1:count} */
+public ${2:int} get${1:count}(){
+    return ${1:count};
+}
+$3]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>set-get</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[setter/getter]]></description>
+</snippet>
