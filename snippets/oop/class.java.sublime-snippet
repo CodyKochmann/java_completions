@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[public class ${1:ClassName}{
+
+    int count;
+
+    /* default constructor */
+    ${1:ClassName}(){
+        $2
+    }
+
+    /* overloaded constructor */
+    ${1:ClassName}(int c){
+        count = c;
+        $2
+    }
+
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>class</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[public class{ ... }]]></description>
+</snippet>
