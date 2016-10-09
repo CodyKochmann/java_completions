@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[/*
+* @author: ${1:author name}
+* @filename: ${2:example}.java
+* @description: ${3:this file does stuff}
+* @Last Modified: 2011-11-11
+*/
+$4]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>header</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.java</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[file header]]></description>
+</snippet>
